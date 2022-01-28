@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./App.css";
 import styled, { ThemeProvider } from "styled-components";
 import { lightTheme, darkTheme, GlobalStyles } from "./themes.js";
-import Intro from "./components/intro/intro";
+import Intro from "./components/intro/intro.jsx";
 
 
 const StyledApp = styled.div`
